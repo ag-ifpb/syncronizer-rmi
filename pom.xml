@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>br.edu.ifpb.pod</groupId>
+    <artifactId>syncronizer</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    
+    <name>Syncronizer</name>
+    
+    <modules>
+        <module>syncronizer.database</module>
+        <module>syncronizer.core</module>
+        <module>syncronizer.postgres</module>
+        <module>syncronizer.mysql</module>
+        <module>syncronizer.google.data.store</module>
+        <module>syncronizer.manager</module>
+        <module>syncronizer.transaction</module>
+    </modules>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>
